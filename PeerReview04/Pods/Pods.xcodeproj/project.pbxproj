@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20089813D83C0A486FB0523864EDE3D4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D16A0924E81E4E800933C26C0352188 /* MapKit.framework */; };
+		476DD112C1A912A82F7118F8BEBD88CD /* DGDistanceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9187B798528E1C98EBA7E69FA814C8 /* DGDistanceRequest.m */; };
+		A8E0FA1F1DABA745CD2C1940B9B8A96B /* DGDistanceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E75A59093ADB0912459583D49BFEAA4C /* DGDistanceRequest.h */; };
+		BF4F46B59D07CF3A2EAFEAECDEC95ACE /* Pods-PeerReview04-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA284E3EF4C913F30213B705FF49CD9 /* Pods-PeerReview04-dummy.m */; };
+		C1AB19E3BC2D1AD8832964AE62714F57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BCE8F97C873F2B729EAFEF8D1A4549 /* Foundation.framework */; };
+		C2F9CBDA54F8BA96921B1A96FB8EC989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BCE8F97C873F2B729EAFEF8D1A4549 /* Foundation.framework */; };
+		C9E35020C07875C4FD14814258ACBD4B /* DistanceGetter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A498E623C3E82D305E219A71F91CB6D6 /* DistanceGetter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A497634A000757C50A00DBB7427A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBCCBC2570C920A619132606A150E40;
+			remoteInfo = "DistanceGetter-DistanceGetter";
+		};
+		DDF9AF28AD736F55F02AA68E8B6DB047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 917DF585C9F07569D18048325770ACCF;
+			remoteInfo = DistanceGetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4402DFA1C642C290D831D23E24CD8F8A /* libDistanceGetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDistanceGetter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B18CC28E8AC1D7F3FEC13DA230A857 /* Pods-PeerReview04.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeerReview04.release.xcconfig"; sourceTree = "<group>"; };
+		4D16A0924E81E4E800933C26C0352188 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		71BCE8F97C873F2B729EAFEF8D1A4549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BA284E3EF4C913F30213B705FF49CD9 /* Pods-PeerReview04-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeerReview04-dummy.m"; sourceTree = "<group>"; };
+		7CDC04EF52190808AD7CAE425645D8E4 /* Pods-PeerReview04-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeerReview04-resources.sh"; sourceTree = "<group>"; };
+		7E6DA1E1F3344144B7374586F208BE4F /* Pods-PeerReview04-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeerReview04-acknowledgements.markdown"; sourceTree = "<group>"; };
+		908B36394BD729DF82EE581D1490BA56 /* DistanceGetter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DistanceGetter-prefix.pch"; sourceTree = "<group>"; };
+		90DAF4AC3B65293FD91CD13C2C683C81 /* DistanceGetter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DistanceGetter-Private.xcconfig"; sourceTree = "<group>"; };
+		A498E623C3E82D305E219A71F91CB6D6 /* DistanceGetter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DistanceGetter-dummy.m"; sourceTree = "<group>"; };
+		AA9187B798528E1C98EBA7E69FA814C8 /* DGDistanceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGDistanceRequest.m; path = Pod/Classes/DGDistanceRequest.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BACCC6D94DEFC5885CFB40CF5FF0A6E9 /* libPods-PeerReview04.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeerReview04.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C7D582A3B6B997B1D1AE222700839B /* Pods-PeerReview04-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeerReview04-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1BA260577925C0D81D36883138866BA /* Pods-PeerReview04.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeerReview04.debug.xcconfig"; sourceTree = "<group>"; };
+		E032F218F604D66F200546DED28F7B00 /* DistanceGetter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DistanceGetter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75A59093ADB0912459583D49BFEAA4C /* DGDistanceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGDistanceRequest.h; path = Pod/Classes/DGDistanceRequest.h; sourceTree = "<group>"; };
+		F0AA0C726A506E8DF94E350BAF25419F /* DistanceGetter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DistanceGetter.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0296D984878FC5485B8E76B8C88E7C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AB19E3BC2D1AD8832964AE62714F57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1250FB30730308662B405C8C05A206B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F325062174D7845E44613260F28B034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F9CBDA54F8BA96921B1A96FB8EC989 /* Foundation.framework in Frameworks */,
+				20089813D83C0A486FB0523864EDE3D4 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		155BFF61D264F36A5FE0E95BCE237C81 /* DistanceGetter */ = {
+			isa = PBXGroup;
+			children = (
+				E75A59093ADB0912459583D49BFEAA4C /* DGDistanceRequest.h */,
+				AA9187B798528E1C98EBA7E69FA814C8 /* DGDistanceRequest.m */,
+				BBD9B195CF55A9DF095084582C4A612C /* Support Files */,
+			);
+			path = DistanceGetter;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40288FC14146947F87ED7397F639D5B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E4CF37BFFBF51F47362E1EE2CC5B9E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E1892D714208A05B1934CDB691008 /* Pods-PeerReview04 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6651DE11B53DE866D7772354970B5476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				155BFF61D264F36A5FE0E95BCE237C81 /* DistanceGetter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6651DE11B53DE866D7772354970B5476 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				4E4CF37BFFBF51F47362E1EE2CC5B9E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD9B195CF55A9DF095084582C4A612C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0AA0C726A506E8DF94E350BAF25419F /* DistanceGetter.xcconfig */,
+				90DAF4AC3B65293FD91CD13C2C683C81 /* DistanceGetter-Private.xcconfig */,
+				A498E623C3E82D305E219A71F91CB6D6 /* DistanceGetter-dummy.m */,
+				908B36394BD729DF82EE581D1490BA56 /* DistanceGetter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DistanceGetter";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E032F218F604D66F200546DED28F7B00 /* DistanceGetter.bundle */,
+				4402DFA1C642C290D831D23E24CD8F8A /* libDistanceGetter.a */,
+				BACCC6D94DEFC5885CFB40CF5FF0A6E9 /* libPods-PeerReview04.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40288FC14146947F87ED7397F639D5B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71BCE8F97C873F2B729EAFEF8D1A4549 /* Foundation.framework */,
+				4D16A0924E81E4E800933C26C0352188 /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA6E1892D714208A05B1934CDB691008 /* Pods-PeerReview04 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6DA1E1F3344144B7374586F208BE4F /* Pods-PeerReview04-acknowledgements.markdown */,
+				C4C7D582A3B6B997B1D1AE222700839B /* Pods-PeerReview04-acknowledgements.plist */,
+				7BA284E3EF4C913F30213B705FF49CD9 /* Pods-PeerReview04-dummy.m */,
+				7CDC04EF52190808AD7CAE425645D8E4 /* Pods-PeerReview04-resources.sh */,
+				D1BA260577925C0D81D36883138866BA /* Pods-PeerReview04.debug.xcconfig */,
+				49B18CC28E8AC1D7F3FEC13DA230A857 /* Pods-PeerReview04.release.xcconfig */,
+			);
+			name = "Pods-PeerReview04";
+			path = "Target Support Files/Pods-PeerReview04";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1C6089FF92D6FA970E02411E9A18245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E0FA1F1DABA745CD2C1940B9B8A96B /* DGDistanceRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64ED3F2B013D26AA6126859AB1A4DBEC /* Pods-PeerReview04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D076ED9127AA234B0CA8B1E2AF5B89 /* Build configuration list for PBXNativeTarget "Pods-PeerReview04" */;
+			buildPhases = (
+				AD09D710B3E048462712BCD787E33043 /* Sources */,
+				0296D984878FC5485B8E76B8C88E7C7A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA6D9B28A4E3C55D8C70AFAB1F03FF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PeerReview04";
+			productName = "Pods-PeerReview04";
+			productReference = BACCC6D94DEFC5885CFB40CF5FF0A6E9 /* libPods-PeerReview04.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		917DF585C9F07569D18048325770ACCF /* DistanceGetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C847A9B0753FB88EE01544F9905831 /* Build configuration list for PBXNativeTarget "DistanceGetter" */;
+			buildPhases = (
+				90EC589E58F24BCF79F457313B18025B /* Sources */,
+				F325062174D7845E44613260F28B034A /* Frameworks */,
+				A1C6089FF92D6FA970E02411E9A18245 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B778AAEE5063540EED49A4734EA3A59E /* PBXTargetDependency */,
+			);
+			name = DistanceGetter;
+			productName = DistanceGetter;
+			productReference = 4402DFA1C642C290D831D23E24CD8F8A /* libDistanceGetter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FFBCCBC2570C920A619132606A150E40 /* DistanceGetter-DistanceGetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B226D34C8DF98D2FA73C4AE7ADB27AF0 /* Build configuration list for PBXNativeTarget "DistanceGetter-DistanceGetter" */;
+			buildPhases = (
+				E21D0E62C19E1336E1B3E5E6EFD09E5E /* Sources */,
+				1250FB30730308662B405C8C05A206B5 /* Frameworks */,
+				720C3DC9A4028FC86E8DFE1C7173E428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DistanceGetter-DistanceGetter";
+			productName = "DistanceGetter-DistanceGetter";
+			productReference = E032F218F604D66F200546DED28F7B00 /* DistanceGetter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917DF585C9F07569D18048325770ACCF /* DistanceGetter */,
+				FFBCCBC2570C920A619132606A150E40 /* DistanceGetter-DistanceGetter */,
+				64ED3F2B013D26AA6126859AB1A4DBEC /* Pods-PeerReview04 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720C3DC9A4028FC86E8DFE1C7173E428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90EC589E58F24BCF79F457313B18025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476DD112C1A912A82F7118F8BEBD88CD /* DGDistanceRequest.m in Sources */,
+				C9E35020C07875C4FD14814258ACBD4B /* DistanceGetter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD09D710B3E048462712BCD787E33043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4F46B59D07CF3A2EAFEAECDEC95ACE /* Pods-PeerReview04-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21D0E62C19E1336E1B3E5E6EFD09E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA6D9B28A4E3C55D8C70AFAB1F03FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DistanceGetter;
+			target = 917DF585C9F07569D18048325770ACCF /* DistanceGetter */;
+			targetProxy = DDF9AF28AD736F55F02AA68E8B6DB047 /* PBXContainerItemProxy */;
+		};
+		B778AAEE5063540EED49A4734EA3A59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DistanceGetter-DistanceGetter";
+			target = FFBCCBC2570C920A619132606A150E40 /* DistanceGetter-DistanceGetter */;
+			targetProxy = 00A497634A000757C50A00DBB7427A53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38E9F7B73FC0A859884BE7396CB2BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DAF4AC3B65293FD91CD13C2C683C81 /* DistanceGetter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DistanceGetter/DistanceGetter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		426BCD097EDF1CFDBE9A025B9EC7D646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DAF4AC3B65293FD91CD13C2C683C81 /* DistanceGetter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DistanceGetter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		44D6EF2B465D32257EC58A85A551FCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BA260577925C0D81D36883138866BA /* Pods-PeerReview04.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B195703692AE944C54BD006AB8DE02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B18CC28E8AC1D7F3FEC13DA230A857 /* Pods-PeerReview04.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6314AF98DFB27E2754B0CC8CEDF953DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DAF4AC3B65293FD91CD13C2C683C81 /* DistanceGetter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DistanceGetter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B899CB14EB3396C607BECEDD71B378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DAF4AC3B65293FD91CD13C2C683C81 /* DistanceGetter-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DistanceGetter/DistanceGetter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C847A9B0753FB88EE01544F9905831 /* Build configuration list for PBXNativeTarget "DistanceGetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E9F7B73FC0A859884BE7396CB2BEF7 /* Debug */,
+				C3B899CB14EB3396C607BECEDD71B378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B226D34C8DF98D2FA73C4AE7ADB27AF0 /* Build configuration list for PBXNativeTarget "DistanceGetter-DistanceGetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426BCD097EDF1CFDBE9A025B9EC7D646 /* Debug */,
+				6314AF98DFB27E2754B0CC8CEDF953DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D076ED9127AA234B0CA8B1E2AF5B89 /* Build configuration list for PBXNativeTarget "Pods-PeerReview04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D6EF2B465D32257EC58A85A551FCF4 /* Debug */,
+				5B195703692AE944C54BD006AB8DE02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

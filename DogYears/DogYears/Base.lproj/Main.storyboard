@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DogYears" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How old is your dog?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkX-vZ-E6Q">
+                                <rect key="frame" x="20" y="20" width="560" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1xA-1c-eM5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.11501592698629921" green="0.68826941287878785" blue="0.055866734371184591" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your dog is X years old in dog years" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VK3-7L-Nh6">
+                                <rect key="frame" x="20" y="167" width="560" height="34"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="OcB-Jt-TfV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.14803439260000001" green="0.70243450129999996" blue="0.1399946849" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCO-jq-dry">
+                                <rect key="frame" x="20" y="112" width="560" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aWz-wY-zrF"/>
+                                </constraints>
+                                <state key="normal" title="Calculate age in dog years">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R2d-hN-ag7"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ume-2j-XXG">
+                                <rect key="frame" x="20" y="60" width="560" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="P48-ge-E0t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="rjF-s6-w3X">
+                                <rect key="frame" x="16" y="263" width="568" height="317"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VK3-7L-Nh6" firstAttribute="centerX" secondItem="rjF-s6-w3X" secondAttribute="centerX" id="0tO-pX-nkf"/>
+                            <constraint firstItem="ume-2j-XXG" firstAttribute="leading" secondItem="bkX-vZ-E6Q" secondAttribute="leading" id="97d-RY-8LY"/>
+                            <constraint firstItem="SCO-jq-dry" firstAttribute="trailing" secondItem="ume-2j-XXG" secondAttribute="trailing" id="A4J-g3-k2Q"/>
+                            <constraint firstItem="rjF-s6-w3X" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ABh-wh-c6H"/>
+                            <constraint firstItem="ume-2j-XXG" firstAttribute="top" secondItem="bkX-vZ-E6Q" secondAttribute="bottom" constant="19" id="AfZ-jz-xCh"/>
+                            <constraint firstItem="SCO-jq-dry" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ivk-IK-fMR"/>
+                            <constraint firstAttribute="bottom" secondItem="rjF-s6-w3X" secondAttribute="bottom" constant="20" symbolic="YES" id="JST-FP-Erq"/>
+                            <constraint firstItem="VK3-7L-Nh6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Jm7-62-THp"/>
+                            <constraint firstItem="SCO-jq-dry" firstAttribute="trailing" secondItem="VK3-7L-Nh6" secondAttribute="trailing" id="ZDk-xa-yco"/>
+                            <constraint firstItem="ume-2j-XXG" firstAttribute="trailing" secondItem="bkX-vZ-E6Q" secondAttribute="trailing" id="Zep-ur-MtG"/>
+                            <constraint firstItem="rjF-s6-w3X" firstAttribute="top" secondItem="VK3-7L-Nh6" secondAttribute="bottom" constant="62" id="fwe-1C-Piq"/>
+                            <constraint firstItem="VK3-7L-Nh6" firstAttribute="top" secondItem="SCO-jq-dry" secondAttribute="bottom" constant="25" id="jem-PG-qrZ"/>
+                            <constraint firstItem="rjF-s6-w3X" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-4" id="m1d-ld-ftm"/>
+                            <constraint firstItem="SCO-jq-dry" firstAttribute="top" secondItem="ume-2j-XXG" secondAttribute="bottom" constant="22" id="mxu-Of-to1"/>
+                            <constraint firstItem="ume-2j-XXG" firstAttribute="leading" secondItem="SCO-jq-dry" secondAttribute="leading" id="oQc-Co-obb"/>
+                            <constraint firstItem="bkX-vZ-E6Q" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="rgG-SP-guH"/>
+                            <constraint firstItem="SCO-jq-dry" firstAttribute="leading" secondItem="VK3-7L-Nh6" secondAttribute="leading" id="weh-QW-839"/>
+                            <constraint firstItem="rjF-s6-w3X" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="yAP-Bt-KTo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ABh-wh-c6H"/>
+                                <exclude reference="yAP-Bt-KTo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="ume-2j-XXG" id="pFb-8o-87A"/>
+                        <outlet property="resultLabel" destination="VK3-7L-Nh6" id="90e-O1-zRL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="441" height="512"/>
+    </resources>
+</document>

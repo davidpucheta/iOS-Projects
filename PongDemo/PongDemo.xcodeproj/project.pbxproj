@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47075CCC1CC19F6C00267263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47075CCB1CC19F6C00267263 /* main.m */; };
+		47075CCF1CC19F6C00267263 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47075CCE1CC19F6C00267263 /* AppDelegate.m */; };
+		47075CD21CC19F6C00267263 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 47075CD11CC19F6C00267263 /* GameScene.m */; };
+		47075CD41CC19F6C00267263 /* ball in Resources */ = {isa = PBXBuildFile; fileRef = 47075CD31CC19F6C00267263 /* ball */; };
+		47075CD71CC19F6C00267263 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47075CD61CC19F6C00267263 /* GameViewController.m */; };
+		47075CDA1CC19F6C00267263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47075CD81CC19F6C00267263 /* Main.storyboard */; };
+		47075CDC1CC19F6C00267263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47075CDB1CC19F6C00267263 /* Assets.xcassets */; };
+		47075CDF1CC19F6C00267263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47075CDD1CC19F6C00267263 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47075CC71CC19F6C00267263 /* PongDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PongDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47075CCB1CC19F6C00267263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47075CCD1CC19F6C00267263 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47075CCE1CC19F6C00267263 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47075CD01CC19F6C00267263 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		47075CD11CC19F6C00267263 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		47075CD31CC19F6C00267263 /* ball */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ball; sourceTree = "<group>"; };
+		47075CD51CC19F6C00267263 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		47075CD61CC19F6C00267263 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		47075CD91CC19F6C00267263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47075CDB1CC19F6C00267263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47075CDE1CC19F6C00267263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47075CE01CC19F6C00267263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47075CC41CC19F6C00267263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47075CBE1CC19F6B00267263 = {
+			isa = PBXGroup;
+			children = (
+				47075CC91CC19F6C00267263 /* PongDemo */,
+				47075CC81CC19F6C00267263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47075CC81CC19F6C00267263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47075CC71CC19F6C00267263 /* PongDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47075CC91CC19F6C00267263 /* PongDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47075CCD1CC19F6C00267263 /* AppDelegate.h */,
+				47075CCE1CC19F6C00267263 /* AppDelegate.m */,
+				47075CD01CC19F6C00267263 /* GameScene.h */,
+				47075CD11CC19F6C00267263 /* GameScene.m */,
+				47075CD31CC19F6C00267263 /* ball */,
+				47075CD51CC19F6C00267263 /* GameViewController.h */,
+				47075CD61CC19F6C00267263 /* GameViewController.m */,
+				47075CD81CC19F6C00267263 /* Main.storyboard */,
+				47075CDB1CC19F6C00267263 /* Assets.xcassets */,
+				47075CDD1CC19F6C00267263 /* LaunchScreen.storyboard */,
+				47075CE01CC19F6C00267263 /* Info.plist */,
+				47075CCA1CC19F6C00267263 /* Supporting Files */,
+			);
+			path = PongDemo;
+			sourceTree = "<group>";
+		};
+		47075CCA1CC19F6C00267263 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47075CCB1CC19F6C00267263 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47075CC61CC19F6C00267263 /* PongDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47075CE31CC19F6C00267263 /* Build configuration list for PBXNativeTarget "PongDemo" */;
+			buildPhases = (
+				47075CC31CC19F6C00267263 /* Sources */,
+				47075CC41CC19F6C00267263 /* Frameworks */,
+				47075CC51CC19F6C00267263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PongDemo;
+			productName = PongDemo;
+			productReference = 47075CC71CC19F6C00267263 /* PongDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47075CBF1CC19F6B00267263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Reyes Pucheta";
+				TargetAttributes = {
+					47075CC61CC19F6C00267263 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 83B6Y9X4WQ;
+					};
+				};
+			};
+			buildConfigurationList = 47075CC21CC19F6B00267263 /* Build configuration list for PBXProject "PongDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47075CBE1CC19F6B00267263;
+			productRefGroup = 47075CC81CC19F6C00267263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47075CC61CC19F6C00267263 /* PongDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47075CC51CC19F6C00267263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47075CD41CC19F6C00267263 /* ball in Resources */,
+				47075CDF1CC19F6C00267263 /* LaunchScreen.storyboard in Resources */,
+				47075CDC1CC19F6C00267263 /* Assets.xcassets in Resources */,
+				47075CDA1CC19F6C00267263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47075CC31CC19F6C00267263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47075CD71CC19F6C00267263 /* GameViewController.m in Sources */,
+				47075CCF1CC19F6C00267263 /* AppDelegate.m in Sources */,
+				47075CD21CC19F6C00267263 /* GameScene.m in Sources */,
+				47075CCC1CC19F6C00267263 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47075CD81CC19F6C00267263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47075CD91CC19F6C00267263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47075CDD1CC19F6C00267263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47075CDE1CC19F6C00267263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47075CE11CC19F6C00267263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47075CE21CC19F6C00267263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47075CE41CC19F6C00267263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PongDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpucheta.PongDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47075CE51CC19F6C00267263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PongDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpucheta.PongDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47075CC21CC19F6B00267263 /* Build configuration list for PBXProject "PongDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47075CE11CC19F6C00267263 /* Debug */,
+				47075CE21CC19F6C00267263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47075CE31CC19F6C00267263 /* Build configuration list for PBXNativeTarget "PongDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47075CE41CC19F6C00267263 /* Debug */,
+				47075CE51CC19F6C00267263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47075CBF1CC19F6B00267263 /* Project object */;
+}

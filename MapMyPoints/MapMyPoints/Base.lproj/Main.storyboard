@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0ee-3Q-ojI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="96I-j5-3hH"/>
+                                </connections>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="arp-bg-3tD">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" id="BZy-zv-3pb">
+                                        <view key="customView" contentMode="scaleToFill" id="e8Q-hx-vgn">
+                                            <rect key="frame" x="20" y="6" width="175" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Locate me:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7n-H6-6k5">
+                                                    <rect key="frame" x="8" y="6" width="85" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bqw-gN-0Cj">
+                                                    <rect key="frame" x="101" y="2" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Z72-5e-e7q"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="Bqw-gN-0Cj" firstAttribute="centerY" secondItem="e8Q-hx-vgn" secondAttribute="centerY" id="3pf-Od-PUv"/>
+                                                <constraint firstItem="E7n-H6-6k5" firstAttribute="centerY" secondItem="e8Q-hx-vgn" secondAttribute="centerY" id="VqO-Ug-oq8"/>
+                                                <constraint firstAttribute="trailing" secondItem="Bqw-gN-0Cj" secondAttribute="trailing" id="tws-DP-xFn"/>
+                                                <constraint firstItem="E7n-H6-6k5" firstAttribute="leading" secondItem="e8Q-hx-vgn" secondAttribute="leading" id="x2F-uc-fB6"/>
+                                            </constraints>
+                                        </view>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qz2-XS-nFB"/>
+                                    <barButtonItem title="MAX" id="wPp-PN-Jb9">
+                                        <connections>
+                                            <action selector="btn1tapped:" destination="BYZ-38-t0r" id="eU1-SK-RB2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JKI-S7-bSQ"/>
+                                    <barButtonItem title="MIX" id="Kq1-To-HrD">
+                                        <connections>
+                                            <action selector="btn2Tapped:" destination="BYZ-38-t0r" id="GYK-bS-ZEH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XbX-DN-YdE"/>
+                                    <barButtonItem title="PIN" id="R3f-C9-Mn4">
+                                        <connections>
+                                            <action selector="btn3Tapped:" destination="BYZ-38-t0r" id="mhI-x5-obG"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="arp-bg-3tD" secondAttribute="trailing" constant="-20" id="47N-c7-hDu"/>
+                            <constraint firstItem="0ee-3Q-ojI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="7iW-Lx-bUI"/>
+                            <constraint firstItem="arp-bg-3tD" firstAttribute="top" secondItem="0ee-3Q-ojI" secondAttribute="bottom" id="F9Z-Fp-W5n"/>
+                            <constraint firstItem="0ee-3Q-ojI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="eoc-ON-EoT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0ee-3Q-ojI" secondAttribute="trailing" constant="-20" id="mBf-Y6-33q"/>
+                            <constraint firstItem="arp-bg-3tD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="pnJ-9a-hgO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="arp-bg-3tD" secondAttribute="bottom" id="yBk-om-qWS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="0ee-3Q-ojI" id="R4K-l2-nPQ"/>
+                        <outlet property="switchLocateMe" destination="Bqw-gN-0Cj" id="w1d-Af-eSN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="354"/>
+        </scene>
+    </scenes>
+</document>
